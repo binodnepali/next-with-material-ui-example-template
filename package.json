@@ -6,7 +6,7 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "test": "jest --watchAll --coverage --verbose"
+    "test:unit": "jest --watchAll --coverage --verbose"
   },
   "dependencies": {
     "@material-ui/core": "^4.9.14",

@@ -1,14 +1,36 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/zeit/next.js/tree/canary/packages/create-next-app).
+# About Template
+
+This is a [Next.js](https://nextjs.org/) starter template bootstrapped with [`create-next-app`](https://github.com/zeit/next.js/tree/canary/packages/create-next-app), the template uses [Material-UI](https://material-ui.com/) design framework and it is preconfigured with a unit test using [Jest](https://jestjs.io/) and [Enzyme.js](https://enzymejs.github.io/enzyme/docs/installation/)
+
+## Get Started Immediately
+
+You **don’t** need to configure unit testing tools like jest or mocha.
+
+They are preconfigured so that you can focus on the code.
+
+Just clone the repo, and follow the getting started section then you’re good to go.
 
 ## Getting Started
 
-First, run the development server:
+Install app dependencies
 
-```bash
-npm run dev
-# or
-yarn dev
-```
+    npm install
+
+Compiles and hot-reloads for development
+
+    npm run dev
+
+Compiles and minifies for production
+
+    npm run build
+
+Run after build for production
+
+    npm run start
+
+Run unit test
+
+    npm run test:unit
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
@@ -16,15 +38,11 @@ You can start editing the page by modifying `pages/index.js`. The page auto-upda
 
 ## Learn More
 
-To learn more about Next.js, take a look at the following resources:
+To learn more about Next.js, Material-UI Jest and enzyme.js take a look at the following resources:
 
 - [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+- [Material-UI Documentation](https://material-ui.com/) - learn about Material-UI
+- [Jest Documentation](https://jestjs.io/) - learn about Jest features and API
+- [Enzyme.js Documentation](https://enzymejs.github.io/enzyme/docs/installation/) - learn about Enzyme.js features and API
 
-You can check out [the Next.js GitHub repository](https://github.com/zeit/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/import?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+You can check out [the Next.js-Material-UI-Template - GitHub repository](https://github.com/nepalibinod9/nextjs-material-ui-template) - your feedback and contributions are welcome!
