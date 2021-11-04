@@ -1,6 +1,6 @@
 import React from "react";
 import { render } from "@testing-library/react";
-import Index from "./index";
+import Index from "./index.page";
 
 test("renders deploy link", () => {
   const { getByText } = render(<Index />);
