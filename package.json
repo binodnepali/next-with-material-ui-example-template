@@ -6,7 +6,8 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "test:unit": "jest --watchAll --coverage --verbose"
+    "test:unit": "jest --watchAll --coverage --verbose",
+    "release": "standard-version"
   },
   "dependencies": {
     "@material-ui/core": "^4.9.14",
@@ -22,6 +23,7 @@
     "enzyme-adapter-react-16": "^1.15.2",
     "identity-obj-proxy": "^3.0.0",
     "jest": "^26.0.1",
-    "react-test-renderer": "^16.13.1"
+    "react-test-renderer": "^16.13.1",
+    "standard-version": "^9.3.2"
   }
 }
