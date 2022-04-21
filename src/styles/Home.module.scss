@@ -73,44 +73,7 @@
   max-width: 800px;
 }
 
-.card {
-  max-width: 300px;
-  margin: 1rem;
-  padding: 1.5rem;
-  border: 1px solid #eaeaea;
-  border-radius: 10px;
-  color: inherit;
-  text-align: left;
-  text-decoration: none;
-  transition: color 0.15s ease, border-color 0.15s ease;
-}
-
-.card:hover,
-.card:focus,
-.card:active {
-  border-color: #0070f3;
-  color: #0070f3;
-}
-
-.card h2 {
-  margin: 0 0 1rem;
-  font-size: 1.5rem;
-}
-
-.card p {
-  margin: 0;
-  font-size: 1.25rem;
-  line-height: 1.5;
-}
-
 .logo {
   height: 1em;
   margin-left: 0.5rem;
-}
-
-@media (max-width: 600px) {
-  .grid {
-    flex-direction: column;
-    width: 100%;
-  }
 }
