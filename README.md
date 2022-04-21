@@ -1,49 +1,86 @@
-# About Template
+# Next.js With Material Example Template
 
-This is a [Next.js](https://nextjs.org/) starter template bootstrapped with [`create-next-app`](https://github.com/zeit/next.js/tree/canary/packages/create-next-app), the template uses [Material-UI](https://material-ui.com/) design framework and it is preconfigured with a unit test using [Jest](https://jestjs.io/) and [Enzyme.js](https://enzymejs.github.io/enzyme/docs/installation/)
+This example template was scaffolded using [nextjs-with-typescript-example-template](https://github.com/binodnepali/nextjs-with-typescript-example-template).
 
-## Get Started Immediately
+## Before getting started
 
-You **don’t** need to configure unit testing tools like jest or mocha.
+Make sure you have installed [Node.js 12.22.0 or higher](https://nodejs.org/en/) on your machine. You can use [nvm](https://github.com/nvm-sh/nvm) to manage multiple node version on your machine.
 
-They are preconfigured so that you can focus on the code.
+## Getting started
 
-Just clone the repo, and follow the getting started section then you’re good to go.
+You can setup this project using npm or yarn package managers.
 
-## Getting Started
+> I would recommend to installed or enabled [yarn](https://yarnpkg.com/getting-started) 1.22.15 or higher on your machine.
 
-Install app dependencies
+### Clone repo
 
-    npm install
+```bash
+git clone https://github.com/binodnepali/nextjs-with-material-ui-example-template.git
+#or
+git clone git@github.com:binodnepali/nextjs-with-material-ui-example-template.git
+```
 
-Compiles and hot-reloads for development
+### Navigate to cloned repo
 
-    npm run dev
+```bash
+cd nextjs-with-material-ui-example-template
+```
 
-Compiles and minifies for production
+### Install dependencies
 
-    npm run build
+```bash
+yarn install
+#or
+npm install
+```
 
-Run after build for production
+### Start development server
 
-    npm run start
-
-Run unit test
-
-    npm run test:unit
+```bash
+yarn dev
+#or
+npm run dev
+```
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
+### Build for production
+
+```bash
+yarn build
+#or
+npm run build
+```
+
+### Start preview server after build
+
+```bash
+yarn start
+#or
+npm run start
+```
+
+Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+
+### Run release
+
+Follow the [Conventional Commits Specification](https://www.conventionalcommits.org/en/v1.0.0/) in your repository. And when you're ready to release, run below scripts.
+
+```bash
+yarn release
+#or
+npm run release
+```
 
 ## Learn More
 
-To learn more about Next.js, Material-UI Jest and enzyme.js take a look at the following resources:
+To learn more about Next.js, ESLint, Prettier, StyleLint and lint-staged, take a look at the following resources:
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Material-UI Documentation](https://material-ui.com/) - learn about Material-UI
-- [Material-UI Server Rendering documentation](https://material-ui.com/guides/server-rendering/) - learn about server rendering
-- [Jest Documentation](https://jestjs.io/) - learn about Jest features and API
-- [Enzyme.js Documentation](https://enzymejs.github.io/enzyme/docs/installation/) - learn about Enzyme.js features and API
-
-You can check out [the Next.js-Material-UI-Template - GitHub repository](https://github.com/nepalibinod9/nextjs-material-ui-template) - your feedback and contributions are welcome!
+* [Next.js Documentation](https://nextjs.org/docs) - Learn about Next.js features and API
+* [Next.js ESLint](https://nextjs.org/docs/basic-features/eslint) - Learn about how to Next.js ESLint setup
+* [Prettier Setup](https://prettier.io/docs/en/install.html) - Learn about how to setup prettier
+* [Prettier Integrations](https://prettier.io/docs/en/related-projects.html) - Learn about how to setup prettier with other tools
+* [ESLint Setup](https://eslint.org/docs/user-guide/getting-started) - Learn about how to ESLint
+* [StyleLint Setup](https://stylelint.io/user-guide/get-started) - Learn about how to setup StyleLint
+* [Lint Staged Setup](https://github.com/okonet/lint-staged) - Learn about how to setup lint-staged
+* [Standard Version](https://github.com/conventional-changelog/standard-version) - Learn about how to setup standar version

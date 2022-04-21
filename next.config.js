@@ -1,3 +1,6 @@
-module.exports = {
-  pageExtensions: ["page.tsx", "page.ts", "page.jsx", "page.js"],
-};
+/** @type {import('next').NextConfig} */
+const nextConfig = {
+  reactStrictMode: true,
+}
+
+module.exports = nextConfig
