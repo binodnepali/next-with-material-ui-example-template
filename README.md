@@ -1,6 +1,10 @@
-# Next.js With Material Example Template
+# Next.js With Typescript Example Template
 
-This example template was scaffolded using [nextjs-with-typescript-example-template](https://github.com/binodnepali/nextjs-with-typescript-example-template).
+An example template made using [Next.js and Typescript](https://nextjs.org/docs) to start a new project. The template is setup with [Prettier](https://prettier.io/docs/en/install.html), [ESLint](https://eslint.org/docs/user-guide/getting-started), [StyleLint](https://stylelint.io/user-guide/get-started) and [Lint Staged](https://github.com/okonet/lint-staged).
+
+## Why this template
+
+I made this template because I have to set up every time Prettier, ESLint, StyleLint and Lint Staged for my new next.js projects. And I thought this might be useful for developers who are looking for configuration or starter or example templates.
 
 ## Before getting started
 
@@ -10,20 +14,20 @@ Make sure you have installed [Node.js 12.22.0 or higher](https://nodejs.org/en/)
 
 You can setup this project using npm or yarn package managers.
 
-> I would recommend to installed or enabled [yarn](https://yarnpkg.com/getting-started) 1.22.15 or higher on your machine.
+> I would recommend to installed or enabled [yarn](https://yarnpkg.com/getting-started) package manager on your machine.
 
 ### Clone repo
 
 ```bash
-git clone https://github.com/binodnepali/nextjs-with-material-ui-example-template.git
+git clone https://github.com/binodnepali/nextjs-with-typescript-example-template.git
 #or
-git clone git@github.com:binodnepali/nextjs-with-material-ui-example-template.git
+git clone git@github.com:binodnepali/nextjs-with-typescript-example-template.git
 ```
 
 ### Navigate to cloned repo
 
 ```bash
-cd nextjs-with-material-ui-example-template
+cd nextjs-with-typescript-example-template
 ```
 
 ### Install dependencies
